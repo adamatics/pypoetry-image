@@ -1,11 +1,8 @@
 name: Daily build
 
 on:
-  push:
-   branches: [ main ]
-# on:
-#   schedule:
-#     - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   test:
